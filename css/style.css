@@ -54,21 +54,22 @@ footer{
 /*Keyframes for animation*/
 
 @-webkit-keyframes logo_wiggle{
-  from { width: 25px;}
-  to{ width : 420px}
+  0% { width: 25px;}
+  100%{ width : 420px}
 
 }
 
 @keyframes logo_wiggle{
-  /*Your code here.*/
+  from { width: 25px;}
+  to{ width : 420px}
 
 } 
 
 #logo{
    /*Your code here.*/
-   -webkit-animation-name: logo_wiggle;
-   -webkit-animation-duration: 15s;
-   -webkit-animation-iteration-count: 1;
+   animation-name: logo_wiggle;
+   animation-duration: 15s;
+   animation-iteration-count: 1;
  
 }
 
@@ -199,14 +200,15 @@ header{
   header{
     /*Your code here again.*/  
     display: flex;
-    align-items: baseline;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
   }
 
   .nav_links{
     /*Your code here again.*/  
     flex-direction: row;
     justify-content: space-between;
+    align-self: flex-end;
   }
 
   .nav_item a{
@@ -224,3 +226,6 @@ header{
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
+@media (prefers-reduced-motion) {
+  
+}

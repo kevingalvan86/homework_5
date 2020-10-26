@@ -81,6 +81,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
   
 }
@@ -161,6 +162,8 @@ header{
 
 .nav_links{
   /*Your code here again.*/
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nav_item a{

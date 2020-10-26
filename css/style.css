@@ -231,10 +231,12 @@ header{
   background-color: #fff;
 }
 .gallery{
-  visibility: hidden;
+  display: none;
 }
 #gallery{
-  visibility: hidden;
+  display: none;
+}
+*:focus{
 }
 }
 

@@ -92,7 +92,6 @@ footer{
   /*Your code here.*/
   /*Take a look at flex-basis*/
   flex-basis: 400px;
-  flex-direction: column;
 
 }
 
@@ -189,7 +188,6 @@ header{
   .card {
     /*Your  code here again.*/
     flex-basis: 225px;
-    flex-direction: column;
   }
 
   .card_big{

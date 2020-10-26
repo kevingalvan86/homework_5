@@ -233,7 +233,7 @@ header{
   display: none;
 }
 *:focus{
-  border: none;
+  border-style: none;
 }
 }
 

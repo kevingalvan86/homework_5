@@ -231,12 +231,7 @@ header{
     flex-direction: column;
   
   }
-  .nav_links{
-    /*Your code here again.*/
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+
   .pricing{
     min-height: 500px;
     /*Your code here.*/
@@ -252,6 +247,10 @@ header{
   margin: 0;
   padding: 0;
   font-size: 16pt; /* test for this! Make all sizes em or rem */
+  background-color: #fff;
+}
+.gallery{
+  visibility: hidden;
 }
 }
 

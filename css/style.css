@@ -221,10 +221,38 @@ header{
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
+  header{
+    background: #fff;
+    border-bottom: 3px solid #50C7C7;
+    /*Your  code here again.*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  .nav_links{
+    /*Your code here again.*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .pricing{
+    min-height: 500px;
+    /*Your code here.*/
+    /*Don't forget to vertically and horizontally alight the card*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 }
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
 @media (prefers-reduced-motion) {
-  
+  #logo{
+
+  }
 }

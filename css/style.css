@@ -82,8 +82,6 @@ footer{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
-  
 }
 
 .card {
@@ -142,6 +140,10 @@ footer{
   min-height: 600px;
   /*Your code here again.*/
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery > img{
@@ -186,6 +188,8 @@ header{
   /* Cards! */
   .card {
     /*Your  code here again.*/
+    flex-basis: 225px;
+    flex-direction: column;
   }
 
   .card_big{
@@ -196,10 +200,15 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/  
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
   }
 
   .nav_links{
     /*Your code here again.*/  
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .nav_item a{

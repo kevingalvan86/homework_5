@@ -95,6 +95,7 @@ footer{
   /*Take a look at flex-basis*/
   display: flex;
   flex-basis: 400px;
+  flex-direction: column;
 
 }
 

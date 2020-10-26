@@ -208,7 +208,6 @@ header{
     /*Your code here again.*/  
     flex-direction: row;
     justify-content: space-between;
-    align-self: flex-end;
   }
 
   .nav_item a{
